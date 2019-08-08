@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hi! I'm Túlio</title>
+
+    <script>
+        console.log("hello");
+        window.alert("hello");
+        document.write("hello");
+    </script>
 </head>
 <body>
-    <h1>Hello! :)</h1>
+    <h1 id="demo">Hello! :)</h1>
+
+    <script>
+        document.getElementById("demo").innerHTML = 5;
+    </script>
 </body>
 </html>
